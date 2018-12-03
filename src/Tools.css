@@ -1,0 +1,33 @@
+.Tools {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-left: 5px;
+    margin-bottom: 7px;
+    margin-right: 5px;
+}
+
+input {
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 13pt;
+    outline-color: crimson;
+}
+input[type="text"] {
+    width: 60%;
+}
+input[type="submit"] {
+    width: 40%;
+    margin-left: 1px;
+    border: 0;
+    background-color: greenyellow;
+    color: #1f1f1f;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.1s linear;
+}
+input[type="submit"]:hover {
+    opacity: 1;
+}

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import List from './List.js';
-import Tools from './Tools.js';
+import List from './List/List.js';
+import Tools from './Tools/Tools.js';
 import './ToDoList.css';
 
 class ToDoList extends Component {
